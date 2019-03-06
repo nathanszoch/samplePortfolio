@@ -1,0 +1,22 @@
+* {
+  font-size: 18px;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+#logo{
+  flex: 1;
+}
+
+.name{
+  text-align: center;
+  flex-grow: 8;
+}
+
+.navbutton{
+  flex:1;
+}
