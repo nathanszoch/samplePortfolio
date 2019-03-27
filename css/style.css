@@ -1,5 +1,6 @@
 * {
   font-size: 18px;
+  font-family: 'Germania One', cursive;
 }
 
 /* Header styles */
@@ -19,4 +20,67 @@ header {
 
 .navbutton{
   flex:1;
+}
+
+ main {
+ min-height: 200 px;
+ border: solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+  body { background-color: red;}
+}
+
+@media screen and (min-width: 900px) {
+  body { background-color: blue;}
+ footer {
+   display: flex
+  }
+  .contact, .socialMedia, .copy {
+    flex:1;
+  }
+  .copy {
+    text-align: left;
+  }
+  .contact {
+    text-align: right;
+  }
 }
